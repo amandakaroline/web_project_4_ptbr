@@ -1,0 +1,17 @@
+.footer {
+  padding: 68px 0 60px;
+}
+
+.footer__author {
+  color: #545454;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}

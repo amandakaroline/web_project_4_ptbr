@@ -1,16 +1,21 @@
 # Projeto 5:  EUA Afora
 
-### Visão geral
+**Descrição**
 
-* Figma
-* Imagens
+O projeto "EUA Afora" é uma página interativa onde os usuários podem adicionar, remover, ou curtir fotos. O objetivo deste projeto é iniciar a prática em Javascript, além de trabalhar conteúdos estudados nos módulos anteriores, como formulários e responsividade. Nas próximas sprints continuaremos melhorando este projeto.
 
-**Figma**
 
-* [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
+**Tecnologias e Técnicas**
 
-**Imagens**
+* HTML;
+* CSS;
+* Metodologia BEM;
+* Layout responsivo;
+* Introdução ao Javascript.
 
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
 
-Divirta-se com JavaScript!
+**GitHub Pages**
+
+https://amandakaroline.github.io/web_project_4_ptbr
+
+Espero que gostem!

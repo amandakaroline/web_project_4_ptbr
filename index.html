@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/pages/index.css" />
+    <title>Ao redor dos EUA</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="./images/vector.svg"
+          class="header__vector"
+          alt="Logo com a frase Around The U.S."
+        />
+      </header>
+      <main>
+        <section class="profile">
+          <div class="profile__avatar">
+            <img
+              src="./images/avatar.jpg"
+              class="profile__image"
+              alt="Foto de perfil"
+            />
+          </div>
+          <div class="profile__info">
+            <h1 class="profile__title">
+              <span id="profile__title">Jacques Cousteau</span>
+              <button class="button button__edit">
+                <img src="./images/edit-button.svg" alt="Editar" />
+              </button>
+            </h1>
+            <p class="profile__subtitle">Explorar</p>
+          </div>
+          <div class="profile__add">
+            <button class="button button__add">
+              <img src="./images/add-button.svg" alt="Adicionar" />
+            </button>
+          </div>
+        </section>
+        <section class="places">
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/vale-de-yosemite.png"
+                class="places__image"
+                alt="Lindo vale de Yosemite"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Vale de Yosemite</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon places__like-icon__active"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/lago-louise.png"
+                class="places__image"
+                alt="Montanhas do Lago Louise"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Lago Louise</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/montanhas-care.png"
+                class="places__image"
+                alt="Montanhas Caretantion"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Montanhas Caretention</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/latemar.png"
+                class="places__image"
+                alt="Latemar a noite"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Latemar</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/vanoise-national.png"
+                class="places__image"
+                alt="Lago Vanoise National"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Vanoise National</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+
+          <div class="places__card">
+            <div class="places__view">
+              <img
+                src="./images/lago-di-braies.png"
+                class="places__image"
+                alt="Montanhas no Lago di Braies"
+              />
+            </div>
+            <div class="places__description">
+              <p class="places__label">Lago de Braies</p>
+              <img
+                src="./images/group.svg"
+                class="places__like-icon"
+                alt="Ícone de coração"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__author">
+          &copy; 2023. Ao redor dos EUA. Amanda Batista
+        </p>
+      </footer>
+    </div>
+
+    <div class="form">
+      <div class="form__container">
+        <div class="form__close">
+          <img
+            src="./images/close-icon.svg"
+            class="form__close-icon"
+            alt="Botão de fechar"
+          />
+        </div>
+        <div class="form__body">
+          <form class="form__element">
+            <h2 class="form__heading">Editar Perfil</h2>
+            <fieldset class="form__edit">
+              <input
+                type="text"
+                class="form__input form__name"
+                name="name"
+                placeholder="Nome"
+              />
+              <input
+                type="text"
+                class="form__input form__about"
+                name="about"
+                placeholder="Sobre mim"
+              />
+              <button type="submit" class="form__button" value="Salvar">
+                Salvar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
