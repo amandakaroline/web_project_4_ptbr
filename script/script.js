@@ -1,4 +1,4 @@
-const buttonEdit = document.querySelector(".button__edit");
+const buttonEdit = document.querySelector(".profile__button-edit");
 const form = document.querySelector(".form");
 const formClose = document.querySelector(".form__close-icon");
 

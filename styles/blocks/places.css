@@ -51,7 +51,7 @@
  opacity: 0.5;
 }
 
-.places__like-icon__active {
+.places__like-icon-active {
  background-image: url(../../images/active.svg);
 
  }
